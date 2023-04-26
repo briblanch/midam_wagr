@@ -35,15 +35,21 @@ class LeaderBoard extends StatelessWidget {
             );
           }
 
-          return ListView.builder(
-            itemBuilder: (context, index) {
-              final ranking = snapshot.data![index];
-              return ListTile(
-                leading: Text('${index + 1}'),
-                title: Text(ranking.playerFullName),
-              );
-            },
-            itemCount: snapshot.data?.length ?? 0,
+          return Center(
+            child: SizedBox(
+              width: 400,
+              child: ListView.builder(
+                shrinkWrap: true,
+                itemBuilder: (context, index) {
+                  final ranking = snapshot.data![index];
+                  return ListTile(
+                    leading: Text('${index + 1}'),
+                    title: Text(ranking.playerFullName),
+                  );
+                },
+                itemCount: snapshot.data?.length ?? 0,
+              ),
+            ),
           );
         },
       ),
