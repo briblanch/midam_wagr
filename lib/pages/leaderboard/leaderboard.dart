@@ -11,6 +11,9 @@ class LeaderBoard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Mid-Am WAGR Rankings'),
+      ),
       body: FutureBuilder(
         future: context
             .read<Dio>()
