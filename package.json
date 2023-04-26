@@ -7,18 +7,8 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://briblanch@github.com/briblanch/midam_wagr.git"
-  },
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/briblanch/midam_wagr/issues"
-  },
   "homepage": "https://github.com/briblanch/midam_wagr#readme",
   "dependencies": {
     "@vercel/node": "^2.12.0",
