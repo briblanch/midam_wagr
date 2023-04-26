@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 Dio buildNetworkClient() {
   return Dio(
     BaseOptions(
-      baseUrl: 'http://localhost:3000',
+      baseUrl: 'https://midam-wagr.vercel.app',
     ),
   );
 }
