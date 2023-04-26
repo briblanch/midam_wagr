@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:midam_wagr/pages/leaderboard/models/models.dart';
 import 'package:provider/provider.dart';
 
-const midAmRankingsUrl =
-    '/rankings/getRankings?rankingsType=0&pageNumber=4&week=0&year=2021&region=0&countries=&playerName=&county=&pageSize=50&playerIDs=&age=25&asOfDate=2023-09-09&includeFirstStats=false&sortString=&isRangeUnder=false&isRangeOver=true&isThisAgeOnly=false&date=';
+const midAmRankingsUrl = '/api/rankings';
 
 class LeaderBoard extends StatelessWidget {
   const LeaderBoard({super.key});

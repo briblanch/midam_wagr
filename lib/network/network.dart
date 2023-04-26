@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 Dio buildNetworkClient() {
   return Dio(
     BaseOptions(
-      baseUrl: 'https://worldgolfranking2021api.wagr.com/api/wagr',
+      baseUrl: 'https://midam-wagr.vercel.app',
     ),
   );
 }

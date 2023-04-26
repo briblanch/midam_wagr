@@ -10,5 +10,5 @@ export default async function handler(
 ){
   const wagrResponse = await axios.get(url)
 
-  response.status(200).json(wagrResponse);
+  response.status(200).json(wagrResponse.data);
 }
